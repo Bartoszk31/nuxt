@@ -4,5 +4,5 @@ const { pending, data } = useLazyFetch("/api/test");
 
 <template>
   <div v-if="pending">Loading</div>
-  <div v-else>asasas{{ data }}</div>
+  <div v-else>asaasdasdsas{{ data }}</div>
 </template>
